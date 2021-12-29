@@ -1,0 +1,7 @@
+IGUI_EN = {
+    IGUI_Sandbox_BetterSmokerDrops = "Better Smoker Drops"
+    IGUI_BSD_Zombie_SmokerPct_Name = "Zombie Smoker %",
+    IGUI_BSD_Zombie_SmokerPct_Tooltip = "The percentage of zombies who were smokers [0-100]"
+    IGUI_BSD_Zombie_IgnitionPct_Name = "Ignition Source %"
+    IGUI_BSD_Zombie_IgnitionPct_Tooltip = "The percentage of smoker zombies who have an ignition source [0-100]"
+}
