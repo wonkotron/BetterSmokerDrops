@@ -13,8 +13,6 @@ local function BSD_OnZombieDead(zombie)
     local smokerRoll = ZombRand(101)
     -- @DEBUG:  print("[BSD] smokerRoll = ", smokerRoll)
 
-    local _temp = BSD
-
     if (smokerRoll <= SandboxVars.BetterSmokerDrops.SmokerPercentage) then
         -- spawn cigarettes
         local cigRoll = ZombRand(SandboxVars.BetterSmokerDrops.MaxCigarettesOnZombie + 1)
