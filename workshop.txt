@@ -3,4 +3,4 @@ id=2690504807
 title=Better Smoker Drops
 description=Zombies that were smokers now carry matches or lighters.  Configurable drop rates.
 tags=Build 41;Balance
-visibility=friendsOnly
+visibility=public
