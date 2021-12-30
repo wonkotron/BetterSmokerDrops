@@ -1,5 +1,4 @@
-name=BetterSmokerDrops
+name=Better Smoker Drops
+id=BetterSmokerDrops
 description=Configurable drop rates for cigarettes, lighters, and matches
 poster=poster.png
-id=BetterSmokerDrops
-require=modoptions
