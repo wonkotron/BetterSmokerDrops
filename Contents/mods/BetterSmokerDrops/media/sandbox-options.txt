@@ -17,5 +17,5 @@ option BetterSmokerDrops.MaxCigarettesOnZombie {
 
 option BetterSmokerDrops.MaxFuelInIgnitionSourcePercentage {
     type = integer, min = 0, max = 100, default = 100,
-    page = BetterSmokerDrops, translation = MaxFuelInIgnitionSource,
+    page = BetterSmokerDrops, translation = MaxFuelInIgnitionSourcePercentage,
 }
