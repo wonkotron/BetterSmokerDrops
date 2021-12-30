@@ -1,7 +1,7 @@
 require 'Items/Distributions'
 require 'Items/SuburbsDistributions'
 
-local function zombie_preDistributionMerge()
+local function BSD_onPreDistributionMerge()
     print("[BSD] removing cigarettes from zombie Distributions")
     -- remove cigarettes from zombie loot tables
     local zombInv_female = Distributions[1]["all"]["inventoryfemale"]
@@ -12,4 +12,4 @@ local function zombie_preDistributionMerge()
 end
 
 -- push changes to Distributions
-Events.OnPreDistributionMerge.Add(preDistributionMerge)
+Events.OnPreDistributionMerge.Add(BSD_onPreDistributionMerge)
