@@ -1,0 +1,15 @@
+Sandbox_EN = {
+    Sandbox_BetterSmokerDrops = "Better Smoker Drops",
+
+    Sandbox_SmokerPercentage = "Zombie Smoker %",
+    Sandbox_SmokerPercentage_tooltip = "The percentage of zombies who were smokers",
+
+    Sandbox_IgnitionSourcePercentage = "Ignition Source %",
+    Sandbox_IgnitionSourcePercentage_tooltip = "The percentage of smoker zombies who have an ignition source (matches or lighter)",
+
+    Sandbox_MaxCigarettesOnZombie = "Maximum Cigarettes on Zombie",
+    Sandbox_MaxCigarettesOnZombie_tooltip = "The maximum quantity of cigarettes in the smoker zombie's pack",
+
+    Sandbox_MaxFuelInIgnitionSourcePercentage = "Maximum Fuel in Ignition Source %",
+    Sandbox_MaxFuelInIgnitionSourcePercentage_tooltip = "The maximum amount of fuel remaining in a smoker zombie's ignition source",
+}

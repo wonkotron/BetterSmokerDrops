@@ -1,0 +1,21 @@
+VERSION = 1,
+
+option BetterSmokerDrops.SmokerPercentage {
+    type = integer, min = 0, max = 100, default = 5,
+    page = BetterSmokerDrops, translation = SmokerPercentage,
+}
+
+option BetterSmokerDrops.IgnitionSourcePercentage {
+    type = integer, min = 0, max = 100, default = 75,
+    page = BetterSmokerDrops, translation = IgnitionSourcePercentage,
+}
+
+option BetterSmokerDrops.MaxCigarettesOnZombie {
+    type = integer, min = 0, max = 20, default = 20,
+    page = BetterSmokerDrops, translation = MaxCigarettesOnZombie,
+}
+
+option BetterSmokerDrops.MaxFuelInIgnitionSourcePercentage {
+    type = integer, min = 0, max = 100, default = 100,
+    page = BetterSmokerDrops, translation = MaxFuelInIgnitionSource,
+}
