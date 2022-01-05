@@ -3,12 +3,15 @@ require 'Items/SuburbsDistributions'
 
 local function BSD_onPreDistributionMerge()
     print("[BSD] removing cigarettes from zombie Distributions")
-    -- remove cigarettes from zombie loot tables
-    local zombInv_female = Distributions[1]["all"]["inventoryfemale"]
-    local zombInv_male = Distributions[1]["all"]["inventorymale"]
-
-    RemoveItemFromDistribution(zombInv_female, "Cigarettes")
-    RemoveItemFromDistribution(zombInv_male, "Cigarettes")
+    -- need to identify base distributions: other mods sometimes end up before this in the table,
+    -- and sometimes after, so no hardcoded index is correct
+    for k,v in pairs(Distributions) do
+        if v.all and v.all.inventoryfemale and v.all.inventorymale then
+            print("  Removing from distribution at index " .. k)
+            RemoveItemFromDistribution(v.all.inventoryfemale, "Cigarettes")
+            RemoveItemFromDistribution(v.all.inventorymale, "Cigarettes")
+        end
+    end
 end
 
 -- push changes to Distributions
